@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>DefenceTech_2</defName>
+    <label>Greydale Spacecraft</label>
+    <tab>RimsenalResearch</tab>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+	  <li>DefenceTech</li>
+	  <li>ShipBasics</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+    <description>Allows you to build Graydale Spacecraft</description>
+    <baseCost>500</baseCost>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  		<researchViewX>4</researchViewX>
+		<researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+
+  
+  
+  
+  
+</Defs>
