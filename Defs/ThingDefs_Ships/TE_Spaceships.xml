@@ -6,11 +6,12 @@
 
   <ThingDef ParentName="BaseShip">
     <thingClass>OHUShips.ShipBase</thingClass>
-    <defName>GD_Cheetah</defName>
-    <label>Cheetah</label>
-    <description>The fast ground support craft manufactured by Greydale Defense. Strike Hard. Strike Fast. 
+    <defName>TE_Zephyr</defName>
+    <label>Zephyr</label>
+    <description> It's an oblique wing medium size transport and can house 8 people -/+ 1500kg and is medium range 1750 fuel tank capacity fast but quite heavy on the controls. 
+	the wing rotates at high speed to have less resistance from the air hence higher speeds and less fuel consumption. 
 
-WorldMapTravelSpeedFactor: 1
+WorldMapTravelSpeedFactor: 0.25
 Range: 
 Fuel Capacity: 600
 Fuel Consumption: 0.6
@@ -22,14 +23,14 @@ HP 800
  
 	
 	<graphicData>
-      <texPath>Things/Ships/GD_Ships/GD_Cheetah_v3</texPath>
+      <texPath>Things/Ships/TE_Ships/TE_Zephyr_v3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Cutout</shaderType>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(10,11)</drawSize>
     </graphicData>
 	
 
-	<size>(5,2)</size>
+	<size>(10,3)</size>
     <rotatable>true</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>Impassable</passability>
@@ -38,8 +39,8 @@ HP 800
     <designationCategory>Ship</designationCategory>
     <iconDrawScale>1</iconDrawScale>
     <statBases>
-      <MaxHitPoints>800</MaxHitPoints>
-      <WorkToBuild>15000</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>25000</WorkToBuild>
       <Flammability>0.1</Flammability>
       <Mass>6000</Mass>	 	  
     </statBases>
@@ -52,27 +53,27 @@ HP 800
         <TicksToDespawn>300</TicksToDespawn>
         
 
-		<WorldMapTravelSpeedFactor>1</WorldMapTravelSpeedFactor>
-        <maxCargo>250</maxCargo>
-        <maxPassengers>2</maxPassengers>
-        <CanBeStartingShip>true</CanBeStartingShip>
+		<WorldMapTravelSpeedFactor>1.3</WorldMapTravelSpeedFactor>
+        <maxCargo>1200</maxCargo>
+        <maxPassengers>8</maxPassengers>
+        <CanBeStartingShip>false</CanBeStartingShip>
         <availableToFactions>
 		<li>Outlander</li>
 	    </availableToFactions>
 		
 		
 
-        <LeavingShipDef>GD_Cheetah_Leaving</LeavingShipDef>
+        <LeavingShipDef>TE_Zephyr_Leaving</LeavingShipDef>
         <IncomingAngle>65</IncomingAngle>
-        <ShadowGraphicPath>Things/Ships/GD_Ships/GD_Cheetah_Shadow_v3</ShadowGraphicPath>
-        <FleetIconGraphicPath>Things/Ships/GD_Ships/GD_Cheetah_FleetIcon</FleetIconGraphicPath>
+        <ShadowGraphicPath>Things/Ships/TE_Ships/TE_Zephyr_Shadow_v3</ShadowGraphicPath>
+        <FleetIconGraphicPath>Things/Ships/TE_Ships/TE_Zephyr_FleetIcon</FleetIconGraphicPath>
 		
 
 		<!-- turretoffset = pos x east, z ??? ,  pos y north  -->
-		
+		<!--
         <weaponSlots>
 		<li>
-          <SlotName>Port Gun</SlotName>
+          <SlotName>Left Gun</SlotName>
           <slotType>LightCaliber</slotType>
           <turretPosOffset>(2,0,1)</turretPosOffset>
           <turretMinSize>(1,1)</turretMinSize>
@@ -80,21 +81,21 @@ HP 800
 	
 	
 		<li>
-          <SlotName>Starboard Gun</SlotName>
+          <SlotName>Right Gun</SlotName>
           <slotType>LightCaliber</slotType>
           <turretPosOffset>(2,0,-1)</turretPosOffset>
           <turretMinSize>(1,1)</turretMinSize>
 	    </li>
 
   
-	   </weaponSlots>
+	   </weaponSlots> -->
 
 	 </li>
 	 
 
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>7.0</fuelConsumptionRate>
-        <fuelCapacity>800.0</fuelCapacity>
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelCapacity>1250.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>Chemfuel</li>
@@ -103,21 +104,21 @@ HP 800
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <showFuelGizmo>true</showFuelGizmo>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-        <initialConfigurableTargetFuelLevel>600</initialConfigurableTargetFuelLevel>
+        <initialConfigurableTargetFuelLevel>900</initialConfigurableTargetFuelLevel>
         <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
         <autoRefuelPercent>1.00</autoRefuelPercent>
       </li>
     </comps>
 	
     <costList>
-      <Steel>800</Steel>
-      <Plasteel>200</Plasteel>
-      <Component>30</Component>
+      <Steel>900</Steel>
+      <Plasteel>300</Plasteel>
+      <Component>35</Component>
     </costList>
 		<researchPrerequisites>
 			<li>DefenceTech</li>
 			<li>ShipBasics</li>
-		    <li>GD_SpaceCraft</li>
+		    <li>TE_SpaceCraft</li>
 		</researchPrerequisites>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -131,8 +132,8 @@ HP 800
 
 
   <ThingDef>
-    <defName>GD_Cheetah_Leaving</defName>
-    <label>Cheetah(leaving)</label>
+    <defName>TE_Zephyr_Leaving</defName>
+    <label>Zephyr(leaving)</label>
     <category>Skyfaller</category>
 		<thingClass>OHUShips.ShipBase_Traveling</thingClass>
 		<tickerType>Normal</tickerType>

@@ -1,0 +1,37 @@
+Faction
+
+
+Shipname, -
+ 
+Size, -
+Unpassable,
+
+Hitpoints, 
+Work To Build, 
+Mass
+
+Flamability
+
+Armors ? 
+
+
+Seats, -
+Cargo( includes Pawn Weight ) -
+
+Weapons
+Postions 
+
+
+Buildcost
+-> Mat1-5
+
+
+Fuel,
+Fuel Use, 
+Speed,
+Range ( calc. ) - 
+
+fueltype. 
+
+
+Description

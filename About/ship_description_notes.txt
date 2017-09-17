@@ -1,0 +1,60 @@
+A completely fueled and well maintained Orbital Hubs United Dropship reaches a top speed of half a hex per second and 
+has a save maximum reach of XXX Hexes.
+
+Calculations and Tests in our lab have proven that maintaining this speed with 150kg cargo, the OhU Standardized Value 
+for two crewmembers, uses YYY amount of OHU approved TrashMan Chemfuel.
+
+The assisted Take-Off and Landing Process uses another ten to twenty seconds of fuel, depending on the terrain at your landing zone.
+
+If the full cargo capacity of one metric ton is used, the OHU Dropship still uses only ZZZ of TrashMan Chemfuel per second. 
+
+
+fixed :
+speed (world tiles/second) x ( fuel (seconds) - 2 x localmap_offset (seconds) )= distance (world tiles)
+
+2 seconds/worldTile = 1/2 worldTile/second
+localmap_offset = either the average value or maximal value of travel on a local map during take off and landing. 
+
+so for launching you allready know ( localmap.size - localmap.x ) as flightpath -> length/speed = times
+while landing gives you localmap.x which remains as the only unknown value and should therefore default to max mapsize. 
+
+
+X and Z are in actual coordinates in the cartesian 2d system. Y is the height of the object, so a negative value renders the turret 
+underneath the plane, a positive or zero value above.
+You can use floating numbers for this entry.
+The other position offset defines the tile in which the turret will spawn.
+
+
+ 
+TODO : 
+
+texture visibility, 
+
+remove gun-mounts 
+
+create shadow, description and picture. 
+
+
+Weapon System Enum ( wishlist ) 
+
+		 ( actually there ) 
+		LightCaliber, 
+		MediumCaliber,
+		Bombing
+
+		( wishlist ) 
+        LightCaliber,
+        MediumCaliber,
+		HeavyCaliber,
+        
+		LightTurret,
+		MediumTurret,
+		
+		Missile,
+		Cannon,
+		Bombing,
+		
+		
+ 
+ 
+ 

@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Greydale Defense Ships</name>
-  <author>SpaceDorf</author>
+  <name>OHU Shipyard - Rimsenal Edition</name>
+  <author>SpaceDorf,pickbullmister</author>
   <targetVersion>0.17.1546</targetVersion>
-  <description>0.01 This Mod Adds Spaceships and Aircraft Manufactured by Greydale Defense to your Arsenal.
+  <description>Death from Above - Now in Stores at your favorite Rimsenal Faction. 
   
-  - Smilodon Troop Transport. Your Fortress away from Home
+  Greydale Defense 	  : Cheetah  - Close Airsupport. 
+					  : Smilodon - Mobile Headquarter. Your Fortress away from Home.(planned)
   
-  - Cheetah Attack Craft. Strike fast. Strike hard. 
+  Yunhwa Precission   : Wyvern   - Air Superiority
+					  
+  Tisphone Enterprise : Zephyr   - Troop Transport
   
-  Credits to Cpt.Ohu for creating the awesome Dropship Mod
-  and rooki1 for creating the equally awesome Rimsenal
-  Howard Taylor for the 70 Maxims
   
-  whoever helped me.
+  
+  SpaceDorf : Code, Sketches, dorfing around.
+  pickbullmister : Art, actual knowledge about aviation. 
+  
+  Credits 
+  Cpt.Ohu for creating the awesome Dropship Mod
+  rooki1 for creating the equally awesome Rimsenal
+  Kaptain_Kavern, Walking_Problem and ChickenPlucker for keeping me motivated.
+  
+  The rest of the Rimworld (Mod) Community for being awesome and inspirational. 
+  
+  and Howard Taylor for the 70 Maxims of Maximally Effective Mercenaries
+  
+  
+  
+  
+  
+  v0.000.05 
+
+included GD Cheetah, TE Zephyr and YP Wyvern. 
+
 
 
 
