@@ -53,10 +53,10 @@ HP 800
         <TicksToDespawn>300</TicksToDespawn>
         
 
-		<WorldMapTravelSpeedFactor>1.3</WorldMapTravelSpeedFactor>
-        <maxCargo>1200</maxCargo>
+		<WorldMapTravelSpeedFactor>1.1</WorldMapTravelSpeedFactor>
+        <maxCargo>1500</maxCargo>
         <maxPassengers>8</maxPassengers>
-        <CanBeStartingShip>false</CanBeStartingShip>
+        <CanBeStartingShip>true</CanBeStartingShip>
         <availableToFactions>
 		<li>Outlander</li>
 	    </availableToFactions>
@@ -95,7 +95,7 @@ HP 800
 
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>5.0</fuelConsumptionRate>
-        <fuelCapacity>1250.0</fuelCapacity>
+        <fuelCapacity>1750.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>Chemfuel</li>
@@ -104,7 +104,7 @@ HP 800
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <showFuelGizmo>true</showFuelGizmo>
         <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-        <initialConfigurableTargetFuelLevel>900</initialConfigurableTargetFuelLevel>
+        <initialConfigurableTargetFuelLevel>200</initialConfigurableTargetFuelLevel>
         <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
         <autoRefuelPercent>1.00</autoRefuelPercent>
       </li>

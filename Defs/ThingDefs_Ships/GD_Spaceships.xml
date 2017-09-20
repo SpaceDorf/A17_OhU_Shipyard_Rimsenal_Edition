@@ -10,7 +10,7 @@
     <label>Cheetah</label>
     <description>The fast ground support craft manufactured by Greydale Defense. Strike Hard. Strike Fast. 
 
-WorldMapTravelSpeedFactor: 1
+WorldMapTravelSpeedFactor: 0.25
 Range: 
 Fuel Capacity: 600
 Fuel Consumption: 0.6
@@ -74,17 +74,25 @@ HP 800
 		<li>
           <SlotName>Port Gun</SlotName>
           <slotType>LightCaliber</slotType>
-          <turretPosOffset>(2,0,1)</turretPosOffset>
+          <turretPosOffset>(1,0,1)</turretPosOffset>
           <turretMinSize>(1,1)</turretMinSize>
 	    </li>
 	
 	
 		<li>
+          <SlotName>Center Gun</SlotName>
+          <slotType>LightCaliber</slotType>
+          <turretPosOffset>(2,0,0)</turretPosOffset>
+          <turretMinSize>(1,1)</turretMinSize>
+	    </li> 
+	
+	   
+		<li>
           <SlotName>Starboard Gun</SlotName>
           <slotType>LightCaliber</slotType>
-          <turretPosOffset>(2,0,-1)</turretPosOffset>
+          <turretPosOffset>(1,0,-1)</turretPosOffset>
           <turretMinSize>(1,1)</turretMinSize>
-	    </li>
+	    </li> 
 
   
 	   </weaponSlots>

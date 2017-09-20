@@ -12,7 +12,7 @@
     <label>GD Vehicle MMG(boxed)</label>
     <description>Greydale Defence's reliable Medium Machine Gun adapted for Vehicles.</description>
     <graphicData>
-      <texPath>Things/ShipWeapons/ShipWeapon_Item</texPath>
+      <texPath>Things/ShipWeapons/GD_ShipWeapon_Item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -119,8 +119,7 @@
     </building>
     <designationHotKey>Misc3</designationHotKey>
     <researchPrerequisites>
-      <li>DefenceTech</li>
-	  	  
+      <li>DefenceTech</li>	  	  
     </researchPrerequisites>
   </ThingDef>
 
@@ -137,12 +136,13 @@
     <label>GD Vehicle HMG(boxed)</label>
     <description>Greydale Defence's powerful Heavy Machine Gun adapted for Vehicles.</description>
     <graphicData>
-      <texPath>Things/ShipWeapons/ShipWeapon_Item</texPath>
+      <texPath>Things/ShipWeapons/GD_ShipWeapon_Item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>1</stackLimit>
+
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <MarketValue>1000</MarketValue>
@@ -262,7 +262,7 @@
     <label>GD Vehicle AGS(boxed)</label>
     <description>Greydale Defence's automated Grenade Launcher adapted for Vehicles.</description>
     <graphicData>
-      <texPath>Things/ShipWeapons/ShipWeapon_Item</texPath>
+      <texPath>Things/ShipWeapons/GD_ShipWeapon_Item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>

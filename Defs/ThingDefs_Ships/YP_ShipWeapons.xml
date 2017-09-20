@@ -11,7 +11,7 @@
     <label>YP Vehicle Shard Blaster(boxed)</label>
     <description>Yunhwa Precissions Shardblaster adapted for Vehicles.</description>
     <graphicData>
-      <texPath>Things/ShipWeapons/ShipWeapon_Item</texPath>
+      <texPath>Things/ShipWeapons/YP_ShipWeapon_Item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>

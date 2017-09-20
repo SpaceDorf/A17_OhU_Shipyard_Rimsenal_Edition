@@ -28,7 +28,7 @@ Cost 750steel, 10 comps 75 plasteel
  
 	
 	<graphicData>
-      <texPath>Things/Ships/YP_Ships/YP_Wyvern</texPath>
+      <texPath>Things/Ships/YP_Ships/YP_Wyvern_v2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Cutout</shaderType>
       <drawSize>(5,5)</drawSize>
@@ -60,8 +60,8 @@ Cost 750steel, 10 comps 75 plasteel
 
 		<WorldMapTravelSpeedFactor>1.5</WorldMapTravelSpeedFactor>
         <maxCargo>200</maxCargo>
-        <maxPassengers>1</maxPassengers>
-        <CanBeStartingShip>false</CanBeStartingShip>
+        <maxPassengers>2</maxPassengers>
+        <CanBeStartingShip>true</CanBeStartingShip>
         <availableToFactions>
 		<!-- <li>Outlander</li> -->
 	    </availableToFactions>
