@@ -11,7 +11,7 @@
     <description> It's an oblique wing medium size transport and can house 8 people -/+ 1500kg and is medium range 1750 fuel tank capacity fast but quite heavy on the controls. 
 	the wing rotates at high speed to have less resistance from the air hence higher speeds and less fuel consumption. 
 
-WorldMapTravelSpeedFactor: 0.25
+WorldMapTravelSpeedFactor: 1.25
 Range: 
 Fuel Capacity: 600
 Fuel Consumption: 0.6
